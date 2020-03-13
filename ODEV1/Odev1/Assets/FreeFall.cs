@@ -21,7 +21,7 @@ public class FreeFall : MonoBehaviour
     private float a = -10;
     private float t = 0;
     private int n = 0;
-    
+
     private void Start()
     {
         //topu baslangicta belirlenen konum noktasına taşıyorum
@@ -31,11 +31,10 @@ public class FreeFall : MonoBehaviour
     }
     private IEnumerator FreeFallingBall(float timeStep)
     {
-        while (t<t_max)
+        while (t < t_max)
         {
-            
             float Vnew = V0 + a * timeStep;
-            float xnew = x0 + V0*timeStep;
+            float xnew = x0 + V0 * timeStep;
             //Topun konumunu güncelliyorum
             transform.position = new Vector3(0, xnew, 0);
             n++;
@@ -44,5 +43,6 @@ public class FreeFall : MonoBehaviour
             x0 = xnew;
             yield return new WaitForSeconds(timeStep);
         }
+
     }
 }

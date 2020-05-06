@@ -1,0 +1,40 @@
+﻿  Odev3.cpp
+D:\repos\BCA613-Computer-Animation-I\ODEV3\Odev3.cpp(78,20): warning C4018: '<': signed/unsigned mismatch
+D:\repos\BCA613-Computer-Animation-I\ODEV3\Odev3.cpp(97,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\repos\BCA613-Computer-Animation-I\ODEV3\Odev3.cpp(98,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\repos\BCA613-Computer-Animation-I\ODEV3\Odev3.cpp(128,21): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\BCA613-Computer-Animation-I\ODEV3\Odev3.cpp(129,24): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\BCA613-Computer-Animation-I\ODEV3\Odev3.cpp(135,21): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\BCA613-Computer-Animation-I\ODEV3\Odev3.cpp(136,26): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\BCA613-Computer-Animation-I\ODEV3\Odev3.cpp(189,19): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\BCA613-Computer-Animation-I\ODEV3\Odev3.cpp(222,28): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+D:\repos\BCA613-Computer-Animation-I\ODEV3\Odev3.cpp(255,18): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  ODEV3.vcxproj -> D:\repos\BCA613-Computer-Animation-I\ODEV3\Debug\ODEV3.exe

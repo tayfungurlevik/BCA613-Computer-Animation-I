@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\BCA613-Computer-Animation-I\\LCA_Tree\\LCA_Tree.csproj": {}
+    "D:\\repos\\BCA613-Computer-Animation-I\\LCA_Tree_Odev4\\LCA_Tree.csproj": {}
   },
   "projects": {
-    "D:\\repos\\BCA613-Computer-Animation-I\\LCA_Tree\\LCA_Tree.csproj": {
+    "D:\\repos\\BCA613-Computer-Animation-I\\LCA_Tree_Odev4\\LCA_Tree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\BCA613-Computer-Animation-I\\LCA_Tree\\LCA_Tree.csproj",
+        "projectUniqueName": "D:\\repos\\BCA613-Computer-Animation-I\\LCA_Tree_Odev4\\LCA_Tree.csproj",
         "projectName": "LCA_Tree",
-        "projectPath": "D:\\repos\\BCA613-Computer-Animation-I\\LCA_Tree\\LCA_Tree.csproj",
+        "projectPath": "D:\\repos\\BCA613-Computer-Animation-I\\LCA_Tree_Odev4\\LCA_Tree.csproj",
         "packagesPath": "C:\\Users\\Tayfun\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\BCA613-Computer-Animation-I\\LCA_Tree\\obj\\",
+        "outputPath": "D:\\repos\\BCA613-Computer-Animation-I\\LCA_Tree_Odev4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

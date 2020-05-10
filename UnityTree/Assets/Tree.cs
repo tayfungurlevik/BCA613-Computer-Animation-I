@@ -10,7 +10,7 @@ public class Tree : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        root = new TreeNode<Transform>(transform);
+        root = new TreeNode<Transform>(transform,null);
         CreateTree(root);
         
         
@@ -27,7 +27,9 @@ public class Tree : MonoBehaviour
         }
         for (int i = 0; i < childCount; i++)
         {
-            root.AddChild(root.Data.GetChild(i));
+            
+            var ChildNode = new TreeNode<Transform>(root.Data.GetChild(i),root);
+            root.AddChild(ChildNode.Data);
             CreateTree(root.FindInChildren(root.Data.GetChild(i)));
         }
         

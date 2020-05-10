@@ -12,20 +12,17 @@ public class LCA : MonoBehaviour
     void Start()
     {
 		tree = GetComponent<Tree>().root;
-        TreeNode<Transform> A = new TreeNode<Transform>(NodeA);
-        TreeNode<Transform> B = new TreeNode<Transform>(NodeB);
-        Debug.Log(A.Data.gameObject.name);
-        Debug.Log(B.Data.gameObject.name);
-        var lca = tree.LCA(tree.Find(A, tree), tree.Find(B, tree), tree);
-        //var lca2 = tree.LCA2(tree,tree.Find(A, tree), tree.Find(B, tree));
-        Debug.Log(lca.Data.gameObject.name);
-        //Debug.Log(lca2.Data.gameObject.name);
+        TreeNode<Transform> A = tree.Find(NodeA,tree);
+        TreeNode<Transform> B = tree.Find(NodeB, tree);
+        
+
+        var lca = tree.LCA(A, B, tree);
+        
+        Debug.Log(string.Format("Lowest Common Ancestor of {0} and {1} is: {2}",NodeA.gameObject.name,NodeB.gameObject.name,
+        lca.Data.gameObject.name));
+        Selection.activeObject = lca.Data.gameObject;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 	
 }

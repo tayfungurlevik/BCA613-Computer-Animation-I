@@ -37,7 +37,7 @@ public class BasketballCarpmaTesti : MonoBehaviour
         {
             float timestepRemaining = h;
             float timestep = timestepRemaining;
-            while (timestepRemaining>0)
+            while (timestepRemaining>0.00001)
             {
                 var yenikonum = Integrate(transform.position, HizVektoru, timestep);
                 float d = Vector3.Dot((transform.position - Duzlem.transform.position), duzlemNormal) - basketball.Cap/2;
@@ -52,11 +52,15 @@ public class BasketballCarpmaTesti : MonoBehaviour
                 }
                 timestepRemaining -= timestep;
                 transform.position = yenikonum;
-
+                
             }
             n++;
             t = n * h;
             yield return new WaitForSeconds(h);
+        }
+        if (t==tmax)
+        {
+            StopCoroutine(CarpmaTesti());
         }
     }
 
